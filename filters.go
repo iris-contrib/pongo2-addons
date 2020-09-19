@@ -10,11 +10,11 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/iris-contrib/pongo2"
+	"github.com/flosch/pongo2/v4"
 
 	"github.com/extemporalgenome/slug"
 	"github.com/flosch/go-humanize"
-	"github.com/russross/blackfriday"
+	"github.com/russross/blackfriday/v2"
 )
 
 func init() {

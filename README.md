@@ -1,17 +1,18 @@
 # pongo2-addons
 
-[![Build Status](https://travis-ci.org/iris-contrib/pongo2-addons.svg?branch=master)](https://travis-ci.org/iris-contrib/pongo2-addons)
+[![Build Status](https://travis-ci.org/flosch/pongo2-addons.svg?branch=master)](https://travis-ci.org/flosch/pongo2-addons)
+[![Gratipay](http://img.shields.io/badge/gratipay-support%20pongo-brightgreen.svg)](https://gratipay.com/flosch/)
 
-Official filter and tag add-ons for [pongo2](https://github.com/iris-contrib/pongo2). Since this package uses
+Official filter and tag add-ons for [pongo2](https://github.com/flosch/pongo2). Since this package uses
 3rd-party-libraries, it's in its own package.
 
 ## How to install and use
 
-Install via `go get -u github.com/iris-contrib/pongo2-addons`. All dependencies will be automatically fetched and installed.
+Install via `go get -u github.com/flosch/pongo2-addons/v4`. All dependencies will be automatically fetched and installed.
 
 Simply add the following import line **after** importing pongo2:
 
-    _ "github.com/iris-contrib/pongo2-addons"
+    _ "github.com/flosch/pongo2-addons/v4"
 
 All additional filters/tags will be registered automatically.
 
@@ -33,6 +34,14 @@ All additional filters/tags will be registered automatically.
      - **[ordinal](https://docs.djangoproject.com/en/dev/ref/contrib/humanize/#ordinal)** (convert integer to its ordinal as string)
      - **[naturalday](https://docs.djangoproject.com/en/dev/ref/contrib/humanize/#naturalday)** (converts `time.Time`-object into today/yesterday/tomorrow if possible; otherwise it will use `naturaltime`)
      - **[timesince](https://docs.djangoproject.com/en/dev/ref/templates/builtins/#timesince)/[timeuntil](https://docs.djangoproject.com/en/1.6/ref/templates/builtins/#timeuntil)/[naturaltime](https://docs.djangoproject.com/en/dev/ref/contrib/humanize/#naturaltime)** (human-readable time [duration] indicator)
+
+### Tags
+
+(nothing yet)
+
+## TODO
+
+ - Support i18n/i10n
 
 ## Used libraries
 
